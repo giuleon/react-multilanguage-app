@@ -45,13 +45,13 @@ export class Multilanguage extends React.Component<MultilanguageProps, Multilang
         return (
             <div>
                 <Pivot onLinkClick={ this.onLinkClick.bind(this) }>
-                    <PivotItem linkText='English' itemIcon='LocaleLanguage' itemKey='en'>
+                    <PivotItem linkText='English' itemIcon='TextBox' itemKey='en'>
                     </PivotItem>
-                    <PivotItem linkText='German' itemIcon='LocaleLanguage' itemKey='de'>
+                    <PivotItem linkText='German' itemIcon='TextBox' itemKey='de'>
                     </PivotItem>
-                    <PivotItem linkText='Italian' itemIcon='LocaleLanguage' itemKey='it'>
+                    <PivotItem linkText='Italian' itemIcon='TextBox' itemKey='it'>
                     </PivotItem>
-                    <PivotItem linkText='Spanish' itemIcon='LocaleLanguage' itemKey='es'>
+                    <PivotItem linkText='Spanish' itemIcon='TextBox' itemKey='es'>
                     </PivotItem>
                 </Pivot> 
                 <h1>{t[this.state.currentLanguage].welcome} {this.props.compiler} {this.props.framework} App!</h1>
