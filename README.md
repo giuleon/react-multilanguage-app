@@ -6,7 +6,7 @@ This app demonstrates how to built a ReactJS multilanguage app.
 
 ![The preview of this app](./assets/Preview.gif)
 
-![Read the article on my blog](http://www.delucagiuliano.com/creating-a-reactjs-multi-language-app)
+[Read the article on my blog http://www.delucagiuliano.com/creating-a-reactjs-multi-language-app](http://www.delucagiuliano.com/creating-a-reactjs-multi-language-app)
 
 ## Solution
 
